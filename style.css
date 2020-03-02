@@ -1,0 +1,87 @@
+body {
+    background-color: azure;
+    margin: 0;
+    color: azure;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: plum;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+.number-input {
+    width: 2rem;
+}
+
+.password-display {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 2px double black;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+}
+.btn {
+    grid-column: span 2;
+    width: 15rem;
+    background-color: firebrick;
+    border: 2px solid firebrick;
+    color: white;
+    padding: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+}
+.btn2 {
+    grid-column: span 2;
+    width: 15rem;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+    color: white;
+    padding: .5rem;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn2:hover {
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+}
